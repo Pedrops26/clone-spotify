@@ -11,8 +11,15 @@ const PlaylistContainer = ({title}: PlaylistContainer) => {
                 <span className="text-white font-bold text-xl">{title}</span>
                 <span className="text-sm text">Show all</span>
             </div>
-            <div className="flex">
-                <PlaylistCard title={"Today's Top Hits"} description="Jung Kook is on top of the Hottest 50!" />
+            <div className="flex gap-4">
+                <PlaylistCard 
+                    title={"Today's Top Hits"} 
+                    description="Jung Kook is on top of the Hottest 50!"
+                    image="/images/disco.jpg"/>
+                <PlaylistCard 
+                    title={"Rap Caviar"} 
+                    description="New music from Drake, Rod Wave and Doja Cat"
+                    image="/images/drake.jpg" />
             </div>
         </section>
     );
