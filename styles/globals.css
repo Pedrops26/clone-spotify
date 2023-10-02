@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.debug{
+  border: 1px solid red;
+}
+
+.dark-card{
+  @apply bg-spotify-black4 rounded-lg p-5;
+}
+
+.dDJltW{
+  @apply fill-white;
+}
+
+.menu-text{
+  @apply text-mid-gray tracking-widest font-semibold hover:text-white hover:cursor-pointer;
+}
+
+.vertical-separator{
+  @apply border border-white h-8 mx-3;
+}
