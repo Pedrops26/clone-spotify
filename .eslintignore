@@ -1,0 +1,4 @@
+nodemodules/
+.next/
+out/
+tailwind.congit.ts
