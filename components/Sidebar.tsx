@@ -7,7 +7,7 @@ import {
   MdOutlineHome,
 } from 'react-icons/md';
 import { AiOutlinePlus } from 'react-icons/ai';
-import { Card } from './Card';
+import { Card } from './Card/Card';
 import { SpotifyLogo } from './SpotifyLogo';
 
 const Sidebar = () => {
