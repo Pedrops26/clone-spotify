@@ -1,7 +1,7 @@
 const CompEjemplo = () => {
   return <div className='test'>Hola</div>;
 };
-export default CompEjemplo;
+export {CompEjemplo};
 
 const CompEjemplo2 = () => {
   return <div className='test'>Hola</div>;
