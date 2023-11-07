@@ -1,5 +1,6 @@
 import { Dialog, DialogContent, DialogTitle } from '@mui/material';
 import { Dispatch, SetStateAction } from 'react';
+// eslint-disable-next-line import/no-unresolved
 import { Button } from '@/components/Button';
 
 interface LogInDialogProps {
